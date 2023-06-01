@@ -1,8 +1,8 @@
-package com.family.HandleLog.service.impl;
+package com.family.handleLog.service.impl;
 
-import com.family.HandleLog.mapper.HandleLogMapper;
-import com.family.HandleLog.service.HandleLogService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.family.handleLog.mapper.HandleLogMapper;
+import com.family.handleLog.service.HandleLogService;
 import com.family.model.basic.HandleLog;
 import org.springframework.stereotype.Service;
 

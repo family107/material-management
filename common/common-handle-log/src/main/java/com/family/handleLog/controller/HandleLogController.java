@@ -1,4 +1,4 @@
-package com.family.HandleLog.controller;
+package com.family.handleLog.controller;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;

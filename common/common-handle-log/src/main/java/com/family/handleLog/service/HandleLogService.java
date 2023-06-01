@@ -1,11 +1,12 @@
-package com.family.HandleLog.service;
+package com.family.handleLog.service;
+
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.family.model.basic.HandleLog;
 
 /**
  * <p>
- *  服务类
+ * 服务类
  * </p>
  *
  * @author family
