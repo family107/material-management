@@ -15,9 +15,6 @@ import java.util.Date;
  **/
 @Data
 public class BaseEntity implements Serializable {
-
-    private String id;
-
     @TableField("create_time")
     private Date createTime;
 
