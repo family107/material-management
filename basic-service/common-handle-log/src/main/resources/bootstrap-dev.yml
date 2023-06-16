@@ -1,0 +1,26 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        ip: 47.120.9.227
+        port: 8001
+      config:
+        file-extension: yaml
+        server-addr: 47.120.9.227:8848
+        namespace: 87390d66-c9e6-4be8-9f5a-e20339b33c77
+        shared-configs[0]:
+          data-id: nacos-registry.yaml
+          group: DEV_GROUP
+          refresh: true
+        shared-configs[1]:
+          data-id: mysql.yaml
+          group: DEV_GROUP
+          refresh: true
+        shared-configs[2]:
+          data-id: redis.yaml
+          group: DEV_GROUP
+          refresh: true
+        shared-configs[3]:
+          data-id: feign.yaml
+          group: DEV_GROUP
+          refresh: true

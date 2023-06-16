@@ -13,5 +13,4 @@ import com.family.model.basic.HandleLog;
  * @since 2023-06-01
  */
 public interface HandleLogService extends IService<HandleLog> {
-
 }

@@ -1,7 +1,7 @@
 server:
-  port: 8001
+  port: 8002
 spring:
   application:
-    name: service-handle-log
+    name: service-message
   profiles:
     active: dev
